@@ -4,7 +4,8 @@ import { createPinia } from "pinia";
 import App from "./App.vue";
 import router from "./router";
 
-import 'grapesjs/dist/css/grapes.min.css';
+import "grapesjs/dist/css/grapes.min.css";
+import "./registerServiceWorker.js";
 
 const app = createApp(App);
 
